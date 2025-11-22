@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 70" width="60" height="70">
+  <title>TOCHMOC Logo</title>
+  <desc>Architectural T Symbol and Wordmark</desc>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');
+    .brand-text {
+      font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+      font-weight: 600;
+      font-size: 8px;
+      letter-spacing: 0.3em;
+      fill: #D4AF37;
+    }
+    .icon-frame {
+      fill: none;
+      stroke: #D4AF37;
+      stroke-width: 1;
+      stroke-opacity: 0.4;
+    }
+    .icon-shape {
+      fill: #D4AF37;
+    }
+  </style>
+  
+  <!-- Icon Container (32x32) Centered horizontally -->
+  <!-- ViewBox width is 60. Center is 30. Icon x = 30 - 16 = 14 -->
+  <g transform="translate(14, 0)">
+    <!-- Outer Frame -->
+    <rect x="0.5" y="0.5" width="31" height="31" class="icon-frame" />
+    
+    <!-- Architectural T Mark (Centered in 32x32) -->
+    <!-- Inner 24x24 SVG coordinate mapping centered at 4,4 relative to group -->
+    <g transform="translate(4, 4)">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        <!-- Lintel -->
+        <rect x="2" y="5" width="20" height="4" class="icon-shape" />
+        <!-- Foundation -->
+        <rect x="10" y="11" width="4" height="11" class="icon-shape" />
+      </svg>
+    </g>
+  </g>
+
+  <!-- Typography -->
+  <text x="30" y="45" text-anchor="middle" class="brand-text">TOCHMOC</text>
+</svg>
