@@ -1,4 +1,4 @@
-import { Palette, Code, Shield, BarChart3, Layers, Globe } from 'lucide-react';
+import { Palette, Code, Shield, BarChart3, Layers, Globe, TrendingUp } from 'lucide-react';
 import { ServiceItem, TestimonialItem, ProjectItem, NavItem } from './types';
 
 export const NAV_LINKS: NavItem[] = [
@@ -26,6 +26,12 @@ export const SERVICES: ServiceItem[] = [
     title: 'IT Infrastructure & Security',
     description: 'Comprehensive IT solutions ensuring your digital assets are protected, optimized, and always online.',
     icon: Shield,
+  },
+  {
+    id: '7',
+    title: 'Performance Marketing',
+    description: 'Strategic SEO, PPC, and content campaigns designed to drive conversion and maximize ROI for your digital properties.',
+    icon: TrendingUp,
   },
   {
     id: '4',
